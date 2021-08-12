@@ -1,0 +1,38 @@
+activities/Details.java
+ activities.Details
+activities/ScreenCalendar.java
+ activities.ScreenCalendar
+controlAppium/TextBox.java
+ controlAppium.TextBox
+factoryDevices/IDevice.java
+ factoryDevices.IDevice
+controlAppium/Button.java
+ controlAppium.Button
+factoryDevices/IOS.java
+ factoryDevices.IOS
+session/Session.java
+ session.Session
+basicTest/BasicAppium.java
+ basicTest.BasicAppium
+controlAppium/LabelClick.java
+ controlAppium.LabelClick
+factoryDevices/FactoryDevice.java
+ factoryDevices.FactoryDevice
+ factoryDevices.FactoryDevice$1
+ factoryDevices.FactoryDevice$DeviceType
+factoryDevices/Android.java
+ factoryDevices.Android
+controlAppium/Control.java
+ controlAppium.Control
+basicTest/BasicJunit.java
+ basicTest.BasicJunit
+factoryDevices/WindowsPhone.java
+ factoryDevices.WindowsPhone
+controlAppium/Label.java
+ controlAppium.Label
+activities/NewContact.java
+ activities.NewContact
+activities/MainScreen.java
+ activities.MainScreen
+cleanTest/ContactTest.java
+ cleanTest.ContactTest
