@@ -22,7 +22,6 @@ public class ContactTest {
     public void verifyCreateTask() throws MalformedURLException, InterruptedException {
         String name1 = "Lindsay Montano";
         String name2 = "Valeria Cartagena";
-        String actName = "Ana";
         String updateName = "Ana Cartagena";
 
 
@@ -74,12 +73,11 @@ public class ContactTest {
 
         mainScreen.clickTaskLabelClick.click();
         details.updateName.click();
-        newContact.firstName.setValue(actName);
+        newContact.firstName.setValue("Ana");
         newContact.clickSaveContact.click();
         details.throwback.click();
 
         Assertions.assertEquals(mainScreen.nameTaskLabel1.getText(), updateName, "Task was created");
-
 
 
     }
